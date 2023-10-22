@@ -63,5 +63,11 @@ document.querySelectorAll(".elem").forEach(function (elem){
 });
 
 
+let time=document.getElementById("currenttime");
+
+let d=new Date();
+time.innerHTML=d.toLocaleTimeString(); 
+
+
 circlemousefollower();
 firstPageAnim();
